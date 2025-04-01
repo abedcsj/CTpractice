@@ -5,7 +5,6 @@ public class FactorialBasic {
     System.out.println(factorialRecursive(5));
     System.out.print(factorialLoop(5));
 
-
     }
     static int factorialRecursive(int n){
         if(n==0||n==1){
