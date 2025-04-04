@@ -18,7 +18,6 @@ public class BackTracking_15652 {
         backtrack(0,1);
 
     }
-
     static void backtrack(int depth,int start){
         if(depth==M){
             for(int i=0;i<M;i++){
@@ -27,7 +26,6 @@ public class BackTracking_15652 {
             System.out.println();
             return;
         }
-
         for(int i=start;i<=N;i++){
                 result[depth] = i;
                 backtrack(depth + 1,i);
